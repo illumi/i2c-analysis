@@ -1018,6 +1018,12 @@
     <file>
       <name>$PROJ_DIR$\..\stm32f0xx_it.c</name>
     </file>
+    <file>
+      <name>$PROJ_DIR$\..\usart_utils.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\usart_utils.h</name>
+    </file>
   </group>
 </project>
 

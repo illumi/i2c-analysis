@@ -29,6 +29,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f0xx_it.h"
+#include <stdio.h>
 
 /** @addtogroup STM32F0xx_StdPeriph_Examples
   * @{
@@ -40,6 +41,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
+#define LED_GREEN 0x0200
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
@@ -97,13 +99,65 @@ void PendSV_Handler(void)
 void SysTick_Handler(void)
 {
 }
-
+         
 /******************************************************************************/
 /*                 STM32F0xx Peripherals Interrupt Handlers                   */
 /*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
 /*  available peripheral interrupt handler's name please refer to the startup */
 /*  file (startup_stm32f0xx.s).                                            */
 /******************************************************************************/
+
+/**
+  * @brief  This function handles External line 0 interrupt request.
+  * @param  None
+  * @retval None
+  */
+void EXTI0_1_IRQHandler(void)
+{
+  if(EXTI_GetITStatus(EXTI_Line0) != RESET)
+  {
+    /* Send some message to uart */
+   printf("Button Pressed! ");
+   if (GPIOC->ODR & LED_GREEN)
+   {
+     GPIOC->BRR = LED_GREEN;
+   } 
+   else
+   {
+     GPIOC->BSRR = LED_GREEN;
+   }
+    /* Clear the EXTI line 0 pending bit */
+    EXTI_ClearITPendingBit(EXTI_Line0);
+  }
+}
+
+/**
+  * @brief  This function handles USART1 interrupt request.
+  * @param  None
+  * @retval None
+  */
+void USART1_IRQHandler(void)
+{
+  /* Just Echo back what we receive for the time being */
+  if (USART_GetITStatus(USART1, USART_IT_RXNE))
+  {
+    uint8_t mychar;
+    mychar = USART_ReceiveData(USART1);
+    USART_SendData(USART1, mychar);
+    if (GPIOC->ODR & LED_GREEN)
+    {
+      GPIOC->BRR = LED_GREEN;
+    } 
+    else
+    {
+      GPIOC->BSRR = LED_GREEN;
+    }
+  }
+  USART_ClearITPendingBit(USART1, USART_IT_RXNE);
+}
+
+
+
 
 /**
   * @brief  This function handles PPP interrupt request.

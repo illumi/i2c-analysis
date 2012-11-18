@@ -27,6 +27,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f0xx.h"
+#include "usart_utils.h"    
 #include <stdio.h>
 
 /** @addtogroup STM32F0xx_StdPeriph_Examples
@@ -39,11 +40,9 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
+#define LED_BLUE  0x0100
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-USART_InitTypeDef USART_InitStructure;
-GPIO_InitTypeDef GPIO_InitStructure;
-
 /* Private function prototypes -----------------------------------------------*/
 
 #ifdef __GNUC__
@@ -70,54 +69,19 @@ int main(void)
        system_stm32f0xx.c file
      */     
        
-  /* USARTx configured as follow:
-        - BaudRate = 115200 baud  
-        - Word Length = 8 Bits
-        - One Stop Bit
-        - No parity
-        - Hardware flow control disabled (RTS and CTS signals)
-        - Receive and transmit enabled
-  */
-  USART_InitStructure.USART_BaudRate = 115200;
-  USART_InitStructure.USART_WordLength = USART_WordLength_8b;
-  USART_InitStructure.USART_StopBits = USART_StopBits_1;
-  USART_InitStructure.USART_Parity = USART_Parity_No;
-  USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
-  USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
 
   /* Enable GPIO clock */
   RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
 
-  /* Enable USART clock */
-  RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE); 
+  /* GPIOC Periph clock enable */
+  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOC, ENABLE);
 
-  /* Connect PXx to USARTx_Tx */
-  GPIO_PinAFConfig(GPIOA, GPIO_PinSource9, GPIO_AF_1);
+  // configure the UART and setup the interupt
+  usart1_configure(); 
 
-  /* Connect PXx to USARTx_Rx */
-  GPIO_PinAFConfig(GPIOA, GPIO_PinSource10, GPIO_AF_1);
+  // configure PA0 as an interupts source (blue user button) and the PC9 and PC8 for Green and Blue LEDs 
+  others_configure();
   
-  /* Configure USART Tx as alternate function push-pull */
-  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_9;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
-  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-  GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-  GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
-  GPIO_Init(GPIOA, &GPIO_InitStructure);
-    
-  /* Configure USART Rx as alternate function push-pull */
-  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;
-  GPIO_Init(GPIOA, &GPIO_InitStructure);
-
-  /* USART configuration */
-  USART_Init(USART1, &USART_InitStructure);
-    
-  /* Enable USART */
-  USART_Cmd(USART1, ENABLE);
-  
-  
-  /* Output a message on Hyperterminal using printf function */
-  printf("\n\rUSART Printf Example: retarget the C library printf function to the USART\n\r");
 
   /* Loop until the end of transmission */
   /* The software must wait until TC=1. The TC flag remains cleared during all data
@@ -126,27 +90,26 @@ int main(void)
   {}
 
   uint32_t waitcount;
-  uint8_t mychar;
+
+  printf("\n\rMain Loop Entry Point!\n\r");
   
   while (1)
   {
-    
-    // After giving up trying to write code from scratch these 10 lines below are the sum total of my work!!!
-    // this probably wants to be linked to an interrupt form the UART somehow!! Simon
-    mychar = USART_ReceiveData(USART1);
-    printf("\n\rLast key pressed that was sent to the uart was ");
-    USART_SendData(USART1, mychar);
-    printf("\n\r");
-    
+    /*Just Wasting time in a loop and toggling a heartbeat LED, everything should be handled through ISRs */
+    GPIOC->BSRR = LED_BLUE;
     waitcount = 0;
-    while (waitcount < 5000000)
+    while (waitcount < 500000)
     {
       waitcount++;
     }
-    
-    
-    
+    GPIOC->BRR = LED_BLUE;
+    waitcount = 0;
+    while (waitcount < 500000)
+    {
+      waitcount++;
+    }
   }
+
 }
 
 /**

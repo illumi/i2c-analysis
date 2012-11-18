@@ -1,69 +1,71 @@
 ###############################################################################
 #                                                                             #
-# IAR ELF Linker V6.40.4.54170/W32 for ARM              17/Oct/2012  21:35:44 #
+# IAR ELF Linker V6.40.4.54170/W32 for ARM              18/Nov/2012  22:11:20 #
 # Copyright 2007-2012 IAR Systems AB.                                         #
 #                                                                             #
-#    Output file  =  D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Exe\STM32F0508-EVAL.out               #
-#    Map file     =  D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\List\STM32F0508-EVAL.map              #
-#    Command line =  D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\main.o                            #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\startup_stm32f0xx.o               #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_adc.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_cec.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_comp.o                  #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_crc.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_dac.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_dbgmcu.o                #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_dma.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_exti.o                  #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_flash.o                 #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_gpio.o                  #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_i2c.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_it.o                    #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_iwdg.o                  #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_misc.o                  #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_pwr.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_rcc.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_rtc.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_spi.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_syscfg.o                #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_tim.o                   #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_usart.o                 #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\stm32f0xx_wwdg.o                  #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Obj\system_stm32f0xx.o --redirect     #
+#    Output file  =  D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Exe\STM32F0508-EVAL.out            #
+#    Map file     =  D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\List\STM32F0508-EVAL.map           #
+#    Command line =  D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\main.o                         #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\startup_stm32f0xx.o            #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_adc.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_cec.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_comp.o               #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_crc.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_dac.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_dbgmcu.o             #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_dma.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_exti.o               #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_flash.o              #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_gpio.o               #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_i2c.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_it.o                 #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_iwdg.o               #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_misc.o               #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_pwr.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_rcc.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_rtc.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_spi.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_syscfg.o             #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_tim.o                #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_usart.o              #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\stm32f0xx_wwdg.o               #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\system_stm32f0xx.o             #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Obj\usart_utils.o --redirect       #
 #                    _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o      #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\Exe\STM32F0508-EVAL.out --map         #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\STM320518-EVAL\List\STM32F0508-EVAL.map --config     #
-#                    D:\Development\STM32F0_Projects\Project\USART_Example\EW #
-#                    ARM\stm32f0xx_flash.icf --semihosting --entry            #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\Exe\STM32F0508-EVAL.out --map      #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\STM320518-EVAL\List\STM32F0508-EVAL.map --config  #
+#                    D:\GitDevelopment\STM32F0_Projects\Project\USART_Example #
+#                    \EWARM\stm32f0xx_flash.icf --semihosting --entry         #
 #                    __iar_program_start --vfe                                #
 #                                                                             #
 #                                                                             #
@@ -93,7 +95,7 @@ __dlib_dynamic_initialization = normal
   .intvec             ro code  0x08000000    0xc0  startup_stm32f0xx.o [1]
                              - 0x080000c0    0xc0
 
-"P1":                                      0x24fc
+"P1":                                      0x287c
   .text               ro code  0x080000c0  0x1172  xprintffull.o [3]
   .text               ro code  0x08001232    0x1c  xmbtowc.o [3]
   .text               ro code  0x0800124e    0x14  strchr.o [5]
@@ -111,74 +113,76 @@ __dlib_dynamic_initialization = normal
   .text               ro code  0x08001556    0x32  DblCmpGe.o [4]
   .text               ro code  0x08001588   0x11c  xdscale.o [4]
   .text               ro code  0x080016a4    0x52  DblToI32.o [4]
-  .text               ro code  0x080016f6     0xa  stm32f0xx_it.o [1]
-  .text               ro code  0x08001700    0x34  I32ToDbl.o [4]
-  .text               ro code  0x08001734   0x1a8  DblAddSub.o [4]
-  .text               ro code  0x080018dc    0x56  I32DivMod.o [5]
-  .text               ro code  0x08001932   0x184  DblMul.o [4]
-  .text               ro code  0x08001ab6    0xc2  DblDiv.o [4]
-  .text               ro code  0x08001b78    0x68  localeconv.o [3]
-  .text               ro code  0x08001be0    0x20  div.o [3]
-  .text               ro code  0x08001c00    0x14  setlocale.o [3]
-  .text               ro code  0x08001c14    0x50  xencoding_sb.o [3]
-  .text               ro code  0x08001c64    0x28  xgetmemchunk.o [3]
-  .text               ro code  0x08001c8c     0x2  I64DivZer.o [5]
-  .text               ro code  0x08001c8e     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08001c90     0x2  IntDivZer.o [5]
-  .text               ro code  0x08001c92     0x2  xtls.o [3]
-  .text               ro code  0x08001c94   0x1b0  stm32f0xx_rcc.o [1]
-  .text               ro code  0x08001e44   0x15c  system_stm32f0xx.o [1]
-  .text               ro code  0x08001fa0   0x12e  stm32f0xx_gpio.o [1]
-  .text               ro code  0x080020ce     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080020d0   0x12c  stm32f0xx_usart.o [1]
-  .text               ro code  0x080021fc   0x11c  main.o [1]
-  .text               ro code  0x08002318    0x24  printf.o [3]
-  .rodata             const    0x0800233c    0x50  main.o [1]
-  .rodata             const    0x0800238c    0x34  main.o [1]
-  .text               ro code  0x080023c0    0x30  copy_init3.o [5]
-  .rodata             const    0x080023f0    0x28  xprintffull.o [3]
-  .text               ro code  0x08002418    0x28  data_init3.o [5]
-  .iar.init_table     const    0x08002440    0x24  - Linker created -
-  .text               ro code  0x08002464    0x16  cmain.o [5]
-  .text               ro code  0x0800247a     0x4  low_level_init.o [3]
-  .text               ro code  0x0800247e     0x8  exit.o [3]
-  .text               ro code  0x08002486     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002488     0xa  cexit.o [5]
-  .text               ro code  0x08002492     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002494    0x14  exit.o [6]
-  .text               ro code  0x080024a8    0x16  xprout.o [3]
-  .text               ro code  0x080024be     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024c0    0x10  putchar.o [3]
-  .text               ro code  0x080024d0    0x10  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024e0     0xc  cstartup_M.o [5]
-  .text               ro code  0x080024ec     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024ee     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024f0     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024f2     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024f4     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024f6     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024f8     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024fa     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024fc     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x080024fe     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002500     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002502     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002504     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002506     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002508     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x0800250a     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x0800250c     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x0800250e     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002510     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002512     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002514     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002516     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x08002518     0x2  startup_stm32f0xx.o [1]
-  .text               ro code  0x0800251a     0x2  startup_stm32f0xx.o [1]
-  .rodata             const    0x0800251c     0x0  zero_init3.o [5]
-  .rodata             const    0x0800251c     0x0  copy_init3.o [5]
-  Initializer bytes   ro data  0x0800251c    0xa0  <for P2 s0>
-                             - 0x080025bc  0x24fc
+  .text               ro code  0x080016f6     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x080016f8    0x34  I32ToDbl.o [4]
+  .text               ro code  0x0800172c   0x1a8  DblAddSub.o [4]
+  .text               ro code  0x080018d4    0x56  I32DivMod.o [5]
+  .text               ro code  0x0800192a   0x184  DblMul.o [4]
+  .text               ro code  0x08001aae    0xc2  DblDiv.o [4]
+  .text               ro code  0x08001b70    0x68  localeconv.o [3]
+  .text               ro code  0x08001bd8    0x20  div.o [3]
+  .text               ro code  0x08001bf8    0x14  setlocale.o [3]
+  .text               ro code  0x08001c0c    0x50  xencoding_sb.o [3]
+  .text               ro code  0x08001c5c    0x28  xgetmemchunk.o [3]
+  .text               ro code  0x08001c84     0x2  I64DivZer.o [5]
+  .text               ro code  0x08001c86     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08001c88     0x2  IntDivZer.o [5]
+  .text               ro code  0x08001c8a     0x2  xtls.o [3]
+  .text               ro code  0x08001c8c   0x1f2  stm32f0xx_usart.o [1]
+  .text               ro code  0x08001e7e     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08001e80   0x1b0  stm32f0xx_rcc.o [1]
+  .text               ro code  0x08002030   0x15c  system_stm32f0xx.o [1]
+  .text               ro code  0x0800218c   0x15c  usart_utils.o [1]
+  .text               ro code  0x080022e8   0x12e  stm32f0xx_gpio.o [1]
+  .text               ro code  0x08002416     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002418    0x78  stm32f0xx_misc.o [1]
+  .text               ro code  0x08002490    0x64  stm32f0xx_syscfg.o [1]
+  .text               ro code  0x080024f4    0xd4  stm32f0xx_exti.o [1]
+  .text               ro code  0x080025c8    0x9c  stm32f0xx_it.o [1]
+  .text               ro code  0x08002664    0x24  printf.o [3]
+  .text               ro code  0x08002688    0x90  main.o [1]
+  .text               ro code  0x08002718    0x30  copy_init3.o [5]
+  .rodata             const    0x08002748    0x28  xprintffull.o [3]
+  .text               ro code  0x08002770    0x28  data_init3.o [5]
+  .iar.init_table     const    0x08002798    0x24  - Linker created -
+  .rodata             const    0x080027bc    0x1c  main.o [1]
+  .text               ro code  0x080027d8    0x16  cmain.o [5]
+  .text               ro code  0x080027ee     0x4  low_level_init.o [3]
+  .text               ro code  0x080027f2     0x8  exit.o [3]
+  .text               ro code  0x080027fa     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x080027fc     0xa  cexit.o [5]
+  .text               ro code  0x08002806     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002808    0x14  exit.o [6]
+  .text               ro code  0x0800281c    0x16  xprout.o [3]
+  .text               ro code  0x08002832     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002834    0x10  putchar.o [3]
+  .rodata             const    0x08002844    0x14  stm32f0xx_it.o [1]
+  .text               ro code  0x08002858    0x10  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002868     0xc  cstartup_M.o [5]
+  .text               ro code  0x08002874     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002876     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002878     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x0800287a     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x0800287c     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x0800287e     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002880     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002882     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002884     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002886     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002888     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x0800288a     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x0800288c     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x0800288e     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002890     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002892     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002894     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002896     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x08002898     0x2  startup_stm32f0xx.o [1]
+  .text               ro code  0x0800289a     0x2  startup_stm32f0xx.o [1]
+  .rodata             const    0x0800289c     0x0  zero_init3.o [5]
+  .rodata             const    0x0800289c     0x0  copy_init3.o [5]
+  Initializer bytes   ro data  0x0800289c    0xa0  <for P2 s0>
+                             - 0x0800293c  0x287c
 
 "P2", part 1 of 3:                           0xa0
   P2 s0                        0x20000000    0xa0  <Init block>
@@ -187,21 +191,23 @@ __dlib_dynamic_initialization = normal
     .data             inited   0x20000090    0x10  stm32f0xx_rcc.o [1]
                              - 0x200000a0    0xa0
 
-"P2", part 2 of 3:                           0xf0
+"P2", part 2 of 3:                          0x100
   __DLIB_PERTHREAD    zero     0x200000a0    0x74  setlocale.o [3]
   .bss                zero     0x20000114    0x50  xfiles.o [3]
-  .bss                zero     0x20000164    0x18  main.o [1]
-  .bss                zero     0x2000017c     0x8  main.o [1]
-  .bss                zero     0x20000184     0x8  xxmemxmalloc.o [3]
-  .bss                zero     0x2000018c     0x4  xgetmemchunk.o [3]
-                             - 0x20000190    0xf0
+  .bss                zero     0x20000164    0x18  usart_utils.o [1]
+  .bss                zero     0x2000017c     0x8  usart_utils.o [1]
+  .bss                zero     0x20000184     0x8  usart_utils.o [1]
+  .bss                zero     0x2000018c     0x8  xxmemxmalloc.o [3]
+  .bss                zero     0x20000194     0x4  usart_utils.o [1]
+  .bss                zero     0x20000198     0x4  xgetmemchunk.o [3]
+                             - 0x2000019c    0xfc
 
 "P2", part 3 of 3:                          0x600
-  CSTACK                       0x20000190   0x400  <Block>
-    CSTACK            uninit   0x20000190   0x400  <Block tail>
-  HEAP                         0x20000590   0x200  <Block>
-    HEAP              uninit   0x20000590   0x200  <Block tail>
-                             - 0x20000790   0x600
+  CSTACK                       0x200001a0   0x400  <Block>
+    CSTACK            uninit   0x200001a0   0x400  <Block tail>
+  HEAP                         0x200005a0   0x200  <Block>
+    HEAP              uninit   0x200005a0   0x200  <Block tail>
+                             - 0x200007a0   0x600
 
 
 *******************************************************************************
@@ -211,12 +217,12 @@ __dlib_dynamic_initialization = normal
           Address     Size
           -------     ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0xf0:
-          0x200000a0  0xf0
+    1 destination range, total size 0xfc:
+          0x200000a0  0xfc
 
 Copy (__iar_copy_init3)
     1 source range, total size 0xa0:
-          0x0800251c  0xa0
+          0x0800289c  0xa0
     1 destination range, total size 0xa0:
           0x20000000  0xa0
 
@@ -228,16 +234,20 @@ Copy (__iar_copy_init3)
 
     Module               ro code  ro data  rw data
     ------               -------  -------  -------
-D:\Development\STM32F0_Projects\Project\USART_Example\EWARM\STM320518-EVAL\Obj: [1]
-    main.o                   284      132       32
-    startup_stm32f0xx.o      266
+D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\EWARM\STM320518-EVAL\Obj: [1]
+    main.o                   144       28
+    startup_stm32f0xx.o      262
+    stm32f0xx_exti.o         212
     stm32f0xx_gpio.o         302
-    stm32f0xx_it.o            10
+    stm32f0xx_it.o           156       20
+    stm32f0xx_misc.o         120
     stm32f0xx_rcc.o          432       16       16
-    stm32f0xx_usart.o        300
+    stm32f0xx_syscfg.o       100
+    stm32f0xx_usart.o        498
     system_stm32f0xx.o       348
+    usart_utils.o            348                44
     ----------------------------------------------
-    Total:                 1 942      148       48
+    Total:                 2 922       64       60
 
 command line: [2]
     ----------------------------------------------
@@ -303,7 +313,7 @@ shb_l.a: [6]
 
     Linker created                     36    1 536
 --------------------------------------------------
-    Grand Total:           9 292      368    1 936
+    Grand Total:          10 272      284    1 948
 
 
 *******************************************************************************
@@ -312,80 +322,91 @@ shb_l.a: [6]
 
 Entry                      Address   Size  Type      Object
 -----                      -------   ----  ----      ------
-?main                   0x08002465         Code  Gb  cmain.o [5]
-ADC1_COMP_IRQHandler    0x080024fb         Code  Wk  startup_stm32f0xx.o [1]
+?main                   0x080027d9         Code  Gb  cmain.o [5]
+ADC1_COMP_IRQHandler    0x0800287d         Code  Wk  startup_stm32f0xx.o [1]
 APBAHBPrescTable        0x20000090   0x10  Data  Lc  stm32f0xx_rcc.o [1]
-CEC_IRQHandler          0x0800251b         Code  Wk  startup_stm32f0xx.o [1]
-CSTACK$$Base            0x20000190          --   Gb  - Linker created -
-CSTACK$$Limit           0x20000590          --   Gb  - Linker created -
+CEC_IRQHandler          0x0800289b         Code  Wk  startup_stm32f0xx.o [1]
+CSTACK$$Base            0x200001a0          --   Gb  - Linker created -
+CSTACK$$Limit           0x200005a0          --   Gb  - Linker created -
 DMA1_Channel1_IRQHandler
-                        0x080024f5         Code  Wk  startup_stm32f0xx.o [1]
+                        0x08002877         Code  Wk  startup_stm32f0xx.o [1]
 DMA1_Channel2_3_IRQHandler
-                        0x080024f7         Code  Wk  startup_stm32f0xx.o [1]
+                        0x08002879         Code  Wk  startup_stm32f0xx.o [1]
 DMA1_Channel4_5_IRQHandler
-                        0x080024f9         Code  Wk  startup_stm32f0xx.o [1]
-EXTI0_1_IRQHandler      0x080024ed         Code  Wk  startup_stm32f0xx.o [1]
-EXTI2_3_IRQHandler      0x080024ef         Code  Wk  startup_stm32f0xx.o [1]
-EXTI4_15_IRQHandler     0x080024f1         Code  Wk  startup_stm32f0xx.o [1]
-FLASH_IRQHandler        0x08002493         Code  Wk  startup_stm32f0xx.o [1]
-GPIO_Init               0x08001fa1   0xbe  Code  Gb  stm32f0xx_gpio.o [1]
-GPIO_InitStructure      0x2000017c    0x8  Data  Gb  main.o [1]
-GPIO_PinAFConfig        0x0800205f   0x70  Code  Gb  stm32f0xx_gpio.o [1]
-HEAP$$Base              0x20000590          --   Gb  - Linker created -
-HEAP$$Limit             0x20000790          --   Gb  - Linker created -
-HardFault_Handler       0x080016f9    0x2  Code  Gb  stm32f0xx_it.o [1]
-I2C1_IRQHandler         0x0800250f         Code  Wk  startup_stm32f0xx.o [1]
-I2C2_IRQHandler         0x08002511         Code  Wk  startup_stm32f0xx.o [1]
-NMI_Handler             0x080016f7    0x2  Code  Gb  stm32f0xx_it.o [1]
-PVD_IRQHandler          0x080020cf         Code  Wk  startup_stm32f0xx.o [1]
-PendSV_Handler          0x080016fd    0x2  Code  Gb  stm32f0xx_it.o [1]
-RCC_AHBPeriphClockCmd   0x08001ddb   0x20  Code  Gb  stm32f0xx_rcc.o [1]
-RCC_APB2PeriphClockCmd  0x08001dfb   0x20  Code  Gb  stm32f0xx_rcc.o [1]
-RCC_GetClocksFreq       0x08001c95  0x146  Code  Gb  stm32f0xx_rcc.o [1]
-RCC_IRQHandler          0x080024bf         Code  Wk  startup_stm32f0xx.o [1]
-RTC_IRQHandler          0x08002487         Code  Wk  startup_stm32f0xx.o [1]
-Region$$Table$$Base     0x08002440          --   Gb  - Linker created -
-Region$$Table$$Limit    0x08002464          --   Gb  - Linker created -
-Reset_Handler           0x080024d1         Code  Wk  startup_stm32f0xx.o [1]
-SPI1_IRQHandler         0x08002513         Code  Wk  startup_stm32f0xx.o [1]
-SPI2_IRQHandler         0x08002515         Code  Wk  startup_stm32f0xx.o [1]
-SVC_Handler             0x080016fb    0x2  Code  Gb  stm32f0xx_it.o [1]
-SetSysClock             0x08001eb3   0xbe  Code  Lc  system_stm32f0xx.o [1]
-SysTick_Handler         0x080016ff    0x2  Code  Gb  stm32f0xx_it.o [1]
-SystemInit              0x08001e45   0x6e  Code  Gb  system_stm32f0xx.o [1]
-TIM14_IRQHandler        0x08002507         Code  Wk  startup_stm32f0xx.o [1]
-TIM15_IRQHandler        0x08002509         Code  Wk  startup_stm32f0xx.o [1]
-TIM16_IRQHandler        0x0800250b         Code  Wk  startup_stm32f0xx.o [1]
-TIM17_IRQHandler        0x0800250d         Code  Wk  startup_stm32f0xx.o [1]
+                        0x0800287b         Code  Wk  startup_stm32f0xx.o [1]
+EXTI0_1_IRQHandler      0x080025d3   0x34  Code  Gb  stm32f0xx_it.o [1]
+EXTI2_3_IRQHandler      0x08002807         Code  Wk  startup_stm32f0xx.o [1]
+EXTI4_15_IRQHandler     0x08002833         Code  Wk  startup_stm32f0xx.o [1]
+EXTI_ClearITPendingBit  0x080025ab    0x6  Code  Gb  stm32f0xx_exti.o [1]
+EXTI_GetITStatus        0x0800257f   0x2c  Code  Gb  stm32f0xx_exti.o [1]
+EXTI_Init               0x080024f5   0x8a  Code  Gb  stm32f0xx_exti.o [1]
+EXTI_InitStructure      0x20000184    0x8  Data  Gb  usart_utils.o [1]
+FLASH_IRQHandler        0x08002417         Code  Wk  startup_stm32f0xx.o [1]
+GPIO_Init               0x080022e9   0xbe  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_InitStructure      0x2000017c    0x8  Data  Gb  usart_utils.o [1]
+GPIO_PinAFConfig        0x080023a7   0x70  Code  Gb  stm32f0xx_gpio.o [1]
+HEAP$$Base              0x200005a0          --   Gb  - Linker created -
+HEAP$$Limit             0x200007a0          --   Gb  - Linker created -
+HardFault_Handler       0x080025cb    0x2  Code  Gb  stm32f0xx_it.o [1]
+I2C1_IRQHandler         0x08002891         Code  Wk  startup_stm32f0xx.o [1]
+I2C2_IRQHandler         0x08002893         Code  Wk  startup_stm32f0xx.o [1]
+NMI_Handler             0x080025c9    0x2  Code  Gb  stm32f0xx_it.o [1]
+NVIC_Init               0x08002419   0x6a  Code  Gb  stm32f0xx_misc.o [1]
+NVIC_InitStructure      0x20000194    0x4  Data  Gb  usart_utils.o [1]
+PVD_IRQHandler          0x08001c87         Code  Wk  startup_stm32f0xx.o [1]
+PendSV_Handler          0x080025cf    0x2  Code  Gb  stm32f0xx_it.o [1]
+RCC_AHBPeriphClockCmd   0x08001fc7   0x20  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08001fe7   0x20  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_GetClocksFreq       0x08001e81  0x146  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_IRQHandler          0x080027fb         Code  Wk  startup_stm32f0xx.o [1]
+RTC_IRQHandler          0x08001e7f         Code  Wk  startup_stm32f0xx.o [1]
+Region$$Table$$Base     0x08002798          --   Gb  - Linker created -
+Region$$Table$$Limit    0x080027bc          --   Gb  - Linker created -
+Reset_Handler           0x08002859         Code  Wk  startup_stm32f0xx.o [1]
+SPI1_IRQHandler         0x08002895         Code  Wk  startup_stm32f0xx.o [1]
+SPI2_IRQHandler         0x08002897         Code  Wk  startup_stm32f0xx.o [1]
+SVC_Handler             0x080025cd    0x2  Code  Gb  stm32f0xx_it.o [1]
+SYSCFG_EXTILineConfig   0x08002491   0x60  Code  Gb  stm32f0xx_syscfg.o [1]
+SetSysClock             0x0800209f   0xbe  Code  Lc  system_stm32f0xx.o [1]
+SysTick_Handler         0x080025d1    0x2  Code  Gb  stm32f0xx_it.o [1]
+SystemInit              0x08002031   0x6e  Code  Gb  system_stm32f0xx.o [1]
+TIM14_IRQHandler        0x08002889         Code  Wk  startup_stm32f0xx.o [1]
+TIM15_IRQHandler        0x0800288b         Code  Wk  startup_stm32f0xx.o [1]
+TIM16_IRQHandler        0x0800288d         Code  Wk  startup_stm32f0xx.o [1]
+TIM17_IRQHandler        0x0800288f         Code  Wk  startup_stm32f0xx.o [1]
 TIM1_BRK_UP_TRG_COM_IRQHandler
-                        0x080024fd         Code  Wk  startup_stm32f0xx.o [1]
-TIM1_CC_IRQHandler      0x080024ff         Code  Wk  startup_stm32f0xx.o [1]
-TIM2_IRQHandler         0x08002501         Code  Wk  startup_stm32f0xx.o [1]
-TIM3_IRQHandler         0x08002503         Code  Wk  startup_stm32f0xx.o [1]
-TIM6_DAC_IRQHandler     0x08002505         Code  Wk  startup_stm32f0xx.o [1]
-TS_IRQHandler           0x080024f3         Code  Wk  startup_stm32f0xx.o [1]
-USART1_IRQHandler       0x08002517         Code  Wk  startup_stm32f0xx.o [1]
-USART2_IRQHandler       0x08002519         Code  Wk  startup_stm32f0xx.o [1]
-USART_Cmd               0x0800219f   0x1c  Code  Gb  stm32f0xx_usart.o [1]
-USART_GetFlagStatus     0x080021e1   0x1c  Code  Gb  stm32f0xx_usart.o [1]
-USART_Init              0x080020d1   0xce  Code  Gb  stm32f0xx_usart.o [1]
-USART_InitStructure     0x20000164   0x18  Data  Gb  main.o [1]
-USART_ReceiveData       0x080021c9    0x8  Code  Gb  stm32f0xx_usart.o [1]
-USART_SendData          0x080021c1    0x8  Code  Gb  stm32f0xx_usart.o [1]
-WWDG_IRQHandler         0x08001c8f         Code  Wk  startup_stm32f0xx.o [1]
-_EncodingSb_Mbtowc      0x08001c29   0x2c  Code  Gb  xencoding_sb.o [3]
-_EncodingSb_Wctomb      0x08001c15   0x14  Code  Gb  xencoding_sb.o [3]
+                        0x0800287f         Code  Wk  startup_stm32f0xx.o [1]
+TIM1_CC_IRQHandler      0x08002881         Code  Wk  startup_stm32f0xx.o [1]
+TIM2_IRQHandler         0x08002883         Code  Wk  startup_stm32f0xx.o [1]
+TIM3_IRQHandler         0x08002885         Code  Wk  startup_stm32f0xx.o [1]
+TIM6_DAC_IRQHandler     0x08002887         Code  Wk  startup_stm32f0xx.o [1]
+TS_IRQHandler           0x08002875         Code  Wk  startup_stm32f0xx.o [1]
+USART1_IRQHandler       0x08002607   0x46  Code  Gb  stm32f0xx_it.o [1]
+USART2_IRQHandler       0x08002899         Code  Wk  startup_stm32f0xx.o [1]
+USART_ClearITPendingBit
+                        0x08001e67   0x18  Code  Gb  stm32f0xx_usart.o [1]
+USART_Cmd               0x08001d5b   0x1c  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetFlagStatus     0x08001de1   0x1c  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetITStatus       0x08001dfd   0x6a  Code  Gb  stm32f0xx_usart.o [1]
+USART_ITConfig          0x08001d9d   0x44  Code  Gb  stm32f0xx_usart.o [1]
+USART_Init              0x08001c8d   0xce  Code  Gb  stm32f0xx_usart.o [1]
+USART_InitStructure     0x20000164   0x18  Data  Gb  usart_utils.o [1]
+USART_ReceiveData       0x08001d85    0x8  Code  Gb  stm32f0xx_usart.o [1]
+USART_SendData          0x08001d7d    0x8  Code  Gb  stm32f0xx_usart.o [1]
+WWDG_IRQHandler         0x080016f7         Code  Wk  startup_stm32f0xx.o [1]
+_EncodingSb_Mbtowc      0x08001c21   0x2c  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Wctomb      0x08001c0d   0x14  Code  Gb  xencoding_sb.o [3]
 _GenldFull              0x08000f89  0x276  Code  Lc  xprintffull.o [3]
 _IsdstStr               0x200000a4    0x4  Data  Gb  setlocale.o [3]
 _LdtobFull              0x08000ad9  0x49a  Code  Lc  xprintffull.o [3]
 _LitobFull              0x080009b1  0x124  Code  Lc  xprintffull.o [3]
-_LocaleEncoding         0x08001c01    0xe  Code  Gb  setlocale.o [3]
+_LocaleEncoding         0x08001bf9    0xe  Code  Gb  setlocale.o [3]
 _LocaleReturnString     0x200000c4   0x50  Data  Lc  setlocale.o [3]
 _Locale_Profile         0x200000a8   0x1c  Data  Gb  setlocale.o [3]
 _Locale_lconv           0x20000000   0x50  Data  Gb  localeconv.o [3]
 _Mbtowc                 0x08001233   0x1c  Code  Gb  xmbtowc.o [3]
 _PrintfFull             0x080000c1  0x5f4  Code  Gb  xprintffull.o [3]
-_Prout                  0x080024a9   0x16  Code  Gb  xprout.o [3]
+_Prout                  0x0800281d   0x16  Code  Gb  xprout.o [3]
 _PutcharsFull           0x080011ff   0x30  Code  Lc  xprintffull.o [3]
 _PutstrFull             0x080006b5  0x2f8  Code  Lc  xprintffull.o [3]
 _TzoneStr               0x200000a0    0x4  Data  Gb  setlocale.o [3]
@@ -398,69 +419,71 @@ __aeabi_cdcmple         0x08001525         Code  Gb  DblCmpLe.o [4]
 __aeabi_cdrcmple        0x08001557         Code  Gb  DblCmpGe.o [4]
 __aeabi_d2iz            0x080016a5         Code  Gb  DblToI32.o [4]
 __aeabi_d2uiz           0x080016c9         Code  Gb  DblToI32.o [4]
-__aeabi_ddiv            0x08001ab7         Code  Gb  DblDiv.o [4]
-__aeabi_dmul            0x08001933         Code  Gb  DblMul.o [4]
-__aeabi_dsub            0x080017ef         Code  Gb  DblAddSub.o [4]
-__aeabi_i2d             0x08001701         Code  Gb  I32ToDbl.o [4]
-__aeabi_idiv            0x080018dd         Code  Gb  I32DivMod.o [5]
-__aeabi_idiv0           0x08001c91         Code  Gb  IntDivZer.o [5]
-__aeabi_idivmod         0x080018dd         Code  Gb  I32DivMod.o [5]
-__aeabi_ldiv0           0x08001c8d         Code  Gb  I64DivZer.o [5]
+__aeabi_ddiv            0x08001aaf         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0800192b         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x080017e7         Code  Gb  DblAddSub.o [4]
+__aeabi_i2d             0x080016f9         Code  Gb  I32ToDbl.o [4]
+__aeabi_idiv            0x080018d5         Code  Gb  I32DivMod.o [5]
+__aeabi_idiv0           0x08001c89         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x080018d5         Code  Gb  I32DivMod.o [5]
+__aeabi_ldiv0           0x08001c85         Code  Gb  I64DivZer.o [5]
 __aeabi_memcpy          0x08001365         Code  Gb  ABImemcpy.o [5]
 __aeabi_memcpy4         0x0800138d         Code  Gb  ABImemcpy.o [5]
 __aeabi_memcpy8         0x0800138d         Code  Gb  ABImemcpy.o [5]
-__aeabi_ui2d            0x08001715         Code  Gb  I32ToDbl.o [4]
-__aeabi_uidiv           0x08001905         Code  Gb  I32DivMod.o [5]
-__aeabi_uidivmod        0x08001905         Code  Gb  I32DivMod.o [5]
+__aeabi_ui2d            0x0800170d         Code  Gb  I32ToDbl.o [4]
+__aeabi_uidiv           0x080018fd         Code  Gb  I32DivMod.o [5]
+__aeabi_uidivmod        0x080018fd         Code  Gb  I32DivMod.o [5]
 __aeabi_uldivmod        0x08001449         Code  Gb  I64DivMod.o [5]
-__cmain                 0x08002465         Code  Gb  cmain.o [5]
-__data_Aldata           0x20000184    0x8  Data  Gb  xxmemxmalloc.o [3]
-__data_GetMemChunk      0x08001c65   0x28  Code  Gb  xgetmemchunk.o [3]
-__exit                  0x08002495   0x14  Code  Gb  exit.o [6]
+__cmain                 0x080027d9         Code  Gb  cmain.o [5]
+__data_Aldata           0x2000018c    0x8  Data  Gb  xxmemxmalloc.o [3]
+__data_GetMemChunk      0x08001c5d   0x28  Code  Gb  xgetmemchunk.o [3]
+__exit                  0x08002809   0x14  Code  Gb  exit.o [6]
 __iar_Dnorm             0x080014dd   0x48  Code  Gb  xdnorm.o [4]
 __iar_Dscale            0x08001589  0x11c  Code  Gb  xdscale.o [4]
 __iar_Locale_lconv_init
-                        0x08001b79   0x32  Code  Gb  localeconv.o [3]
+                        0x08001b71   0x32  Code  Gb  localeconv.o [3]
 __iar_Mbcurmax          0x0800128b    0xa  Code  Gb  xmbcurmax.o [3]
 __iar_Memchr            0x08001273   0x18  Code  Gb  memchr.o [5]
 __iar_Stdout            0x20000050   0x40  Data  Gb  xfiles.o [3]
 __iar_Strchr            0x0800124f   0x14  Code  Gb  strchr.o [5]
-__iar_copy_init3        0x080023c1   0x30  Code  Gb  copy_init3.o [5]
+__iar_copy_init3        0x08002719   0x30  Code  Gb  copy_init3.o [5]
 __iar_d2uiz             0x080016cd         Code  Gb  DblToI32.o [4]
-__iar_data_init3        0x08002419   0x28  Code  Gb  data_init3.o [5]
+__iar_data_init3        0x08002771   0x28  Code  Gb  data_init3.o [5]
 __iar_dlib_perthread_access
-                        0x08001c93    0x2  Code  Gb  xtls.o [3]
-__iar_program_start     0x080024e1         Code  Gb  cstartup_M.o [5]
-__iar_ui2d              0x08001719         Code  Gb  I32ToDbl.o [4]
+                        0x08001c8b    0x2  Code  Gb  xtls.o [3]
+__iar_program_start     0x08002869         Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x08001711         Code  Gb  I32ToDbl.o [4]
 __iar_zero_init3        0x080014b3   0x2a  Code  Gb  zero_init3.o [5]
-__low_level_init        0x0800247b    0x4  Code  Gb  low_level_init.o [3]
+__low_level_init        0x080027ef    0x4  Code  Gb  low_level_init.o [3]
 __vector_table          0x08000000         Data  Gb  startup_stm32f0xx.o [1]
-_call_main              0x08002471         Code  Gb  cmain.o [5]
-_exit                   0x08002489         Code  Gb  cexit.o [5]
-_main                   0x08002477         Code  Gb  cmain.o [5]
-div                     0x08001be1   0x20  Code  Gb  div.o [3]
-exit                    0x0800247f    0x8  Code  Gb  exit.o [3]
-fputc                   0x080022db   0x22  Code  Gb  main.o [1]
+_call_main              0x080027e5         Code  Gb  cmain.o [5]
+_exit                   0x080027fd         Code  Gb  cexit.o [5]
+_main                   0x080027eb         Code  Gb  cmain.o [5]
+div                     0x08001bd9   0x20  Code  Gb  div.o [3]
+exit                    0x080027f3    0x8  Code  Gb  exit.o [3]
+fputc                   0x080026e3   0x22  Code  Gb  main.o [1]
 free                    0x080013c1   0x82  Code  Gb  xxmemxfree.o [3]
-localeconv              0x08001bab   0x18  Code  Gb  localeconv.o [3]
-main                    0x080021fd   0xde  Code  Gb  main.o [1]
+localeconv              0x08001ba3   0x18  Code  Gb  localeconv.o [3]
+main                    0x08002689   0x5a  Code  Gb  main.o [1]
 malloc                  0x08001295   0xb2  Code  Gb  xxmemxmalloc.o [3]
 obuf                    0x20000114   0x50  Data  Lc  xfiles.o [3]
-printf                  0x08002319   0x24  Code  Gb  printf.o [3]
-putchar                 0x080024c1   0x10  Code  Gb  putchar.o [3]
+others_configure        0x08002247   0x86  Code  Gb  usart_utils.o [1]
+printf                  0x08002665   0x24  Code  Gb  printf.o [3]
+putchar                 0x08002835   0x10  Code  Gb  putchar.o [3]
 strlen                  0x08001263   0x10  Code  Gb  strlen.o [5]
+usart1_configure        0x0800218d   0xba  Code  Gb  usart_utils.o [1]
 
 
-[1] = D:\Development\STM32F0_Projects\Project\USART_Example\EWARM\STM320518-EVAL\Obj
+[1] = D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\EWARM\STM320518-EVAL\Obj
 [2] = command line
 [3] = dl6M_tlf.a
 [4] = m6M_tl.a
 [5] = rt6M_tl.a
 [6] = shb_l.a
 
-  9 292 bytes of readonly  code memory
-    368 bytes of readonly  data memory
-  1 936 bytes of readwrite data memory
+  10 272 bytes of readonly  code memory
+     284 bytes of readonly  data memory
+   1 948 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
