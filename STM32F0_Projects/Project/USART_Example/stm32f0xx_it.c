@@ -143,7 +143,16 @@ void USART1_IRQHandler(void)
   {
     uint8_t mychar;
     mychar = USART_ReceiveData(USART1);
-    USART_SendData(USART1, mychar);
+    if (mychar == 0xD) // carrage return
+    {
+      printf("\n\r");
+    }
+    else
+    {
+      USART_SendData(USART1, mychar);
+    }
+    
+    /* Toggle the Green LED */
     if (GPIOC->ODR & LED_GREEN)
     {
       GPIOC->BRR = LED_GREEN;

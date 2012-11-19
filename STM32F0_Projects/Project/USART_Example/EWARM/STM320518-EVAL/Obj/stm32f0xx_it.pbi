@@ -4952,15 +4952,15 @@
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:142:25: macro expansion=USART1|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:745:9 <US>c:macro@USART1<UE> <DS>USART1<DE> Extent=<ES>142:25 - 142:31<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:142:33: macro expansion=USART_IT_RXNE|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:451:9 <US>c:macro@USART_IT_RXNE<UE> <DS>USART_IT_RXNE<DE> Extent=<ES>142:33 - 142:46<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:145:32: macro expansion=USART1|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:745:9 <US>c:macro@USART1<UE> <DS>USART1<DE> Extent=<ES>145:32 - 145:38<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: macro expansion=USART1|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:745:9 <US>c:macro@USART1<UE> <DS>USART1<DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: macro expansion=GPIOC|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:765:9 <US>c:macro@GPIOC<UE> <DS>GPIOC<DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:22: macro expansion=LED_GREEN|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:44:9 <US>c:macro@LED_GREEN<UE> <DS>LED_GREEN<DE> Extent=<ES>147:22 - 147:31<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: macro expansion=GPIOC|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:765:9 <US>c:macro@GPIOC<UE> <DS>GPIOC<DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:20: macro expansion=LED_GREEN|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:44:9 <US>c:macro@LED_GREEN<UE> <DS>LED_GREEN<DE> Extent=<ES>149:20 - 149:29<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: macro expansion=GPIOC|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:765:9 <US>c:macro@GPIOC<UE> <DS>GPIOC<DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:21: macro expansion=LED_GREEN|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:44:9 <US>c:macro@LED_GREEN<UE> <DS>LED_GREEN<DE> Extent=<ES>153:21 - 153:30<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: macro expansion=USART1|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:745:9 <US>c:macro@USART1<UE> <DS>USART1<DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:35: macro expansion=USART_IT_RXNE|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:451:9 <US>c:macro@USART_IT_RXNE<UE> <DS>USART_IT_RXNE<DE> Extent=<ES>156:35 - 156:48<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: macro expansion=USART1|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:745:9 <US>c:macro@USART1<UE> <DS>USART1<DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: macro expansion=GPIOC|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:765:9 <US>c:macro@GPIOC<UE> <DS>GPIOC<DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:22: macro expansion=LED_GREEN|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:44:9 <US>c:macro@LED_GREEN<UE> <DS>LED_GREEN<DE> Extent=<ES>156:22 - 156:31<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: macro expansion=GPIOC|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:765:9 <US>c:macro@GPIOC<UE> <DS>GPIOC<DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:20: macro expansion=LED_GREEN|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:44:9 <US>c:macro@LED_GREEN<UE> <DS>LED_GREEN<DE> Extent=<ES>158:20 - 158:29<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: macro expansion=GPIOC|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:765:9 <US>c:macro@GPIOC<UE> <DS>GPIOC<DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:21: macro expansion=LED_GREEN|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:44:9 <US>c:macro@LED_GREEN<UE> <DS>LED_GREEN<DE> Extent=<ES>162:21 - 162:30<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: macro expansion=USART1|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:745:9 <US>c:macro@USART1<UE> <DS>USART1<DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:35: macro expansion=USART_IT_RXNE|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:451:9 <US>c:macro@USART_IT_RXNE<UE> <DS>USART_IT_RXNE<DE> Extent=<ES>165:35 - 165:48<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:171:14: EnumDecl=IRQn|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:171:14 (Definition) <US>c:@E@IRQn<UE> <DS>IRQn<DE> Extent=<ES>171:9 - 210:2<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:174:3: EnumConstantDecl=NonMaskableInt_IRQn|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:174:3 (Definition) <US>c:@E@IRQn@NonMaskableInt_IRQn<UE> <DS>NonMaskableInt_IRQn<DE> Extent=<ES>174:3 - 174:36<EE>
@@ -10679,9 +10679,9 @@
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:130:28: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>130:28 - 130:38<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:130:28: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>130:28 - 130:38<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:130:28: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>130:28 - 130:38<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:139:6: FunctionDecl=USART1_IRQHandler|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:139:6 (Definition) <US>c:@F@USART1_IRQHandler<UE> <DS>void USART1_IRQHandler(void)<DE> Extent=<ES>139:1 - 157:2<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:140:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>140:1 - 157:2<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:142:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>142:3 - 155:4<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:139:6: FunctionDecl=USART1_IRQHandler|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:139:6 (Definition) <US>c:@F@USART1_IRQHandler<UE> <DS>void USART1_IRQHandler(void)<DE> Extent=<ES>139:1 - 166:2<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:140:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>140:1 - 166:2<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:142:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>142:3 - 164:4<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:142:7: CallExpr=USART_GetITStatus|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:575:10 <US>c:@F@USART_GetITStatus<UE> <DS>ITStatus USART_GetITStatus(USART_TypeDef *, uint32_t)<DE> Extent=<ES>142:7 - 142:47<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:142:7: UnexposedExpr=USART_GetITStatus|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:575:10 <US>c:@F@USART_GetITStatus<UE> <DS>ITStatus USART_GetITStatus(USART_TypeDef *, uint32_t)<DE> Extent=<ES>142:7 - 142:24<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:142:7: DeclRefExpr=USART_GetITStatus|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:575:10 (Reference) <US>c:@F@USART_GetITStatus<UE> <DS>ITStatus USART_GetITStatus(USART_TypeDef *, uint32_t)<DE> Extent=<ES>142:7 - 142:24<EE>
@@ -10700,7 +10700,7 @@
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:142:33: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>142:33 - 142:46<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:142:33: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>142:33 - 142:46<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:142:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:33 - 142:46<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:143:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>143:3 - 155:4<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:143:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>143:3 - 164:4<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>144:5 - 144:20<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13: VarDecl=mychar|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13 (Definition) <US>c:stm32f0xx_it.c@4282@F@USART1_IRQHandler@mychar<UE> <DS>mychar<DE> Extent=<ES>144:5 - 144:19<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:5: TypeRef=uint8_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:17:28 (Reference) <US>c:stdint.h@340@T@uint8_t<UE> <DS>unsigned char<DE> Extent=<ES>144:5 - 144:12<EE>
@@ -10721,99 +10721,113 @@
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:145:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>145:32 - 145:38<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:145:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>145:32 - 145:38<EE>
 <L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:145:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>145:32 - 145:38<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:5: CallExpr=USART_SendData|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:533:6 <US>c:@F@USART_SendData<UE> <DS>void USART_SendData(USART_TypeDef *, uint16_t)<DE> Extent=<ES>146:5 - 146:35<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:5: UnexposedExpr=USART_SendData|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:533:6 <US>c:@F@USART_SendData<UE> <DS>void USART_SendData(USART_TypeDef *, uint16_t)<DE> Extent=<ES>146:5 - 146:19<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:5: DeclRefExpr=USART_SendData|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:533:6 (Reference) <US>c:@F@USART_SendData<UE> <DS>void USART_SendData(USART_TypeDef *, uint16_t)<DE> Extent=<ES>146:5 - 146:19<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: TypeRef=USART_TypeDef|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:638:3 (Reference) <US>c:stm32f0xx.h@36614@T@USART_TypeDef<UE> <DS>struct USART_TypeDef<DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: ParenExpr= <US><UE> <DS><DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>146:20 - 146:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:28: UnexposedExpr=mychar|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13 <US>c:stm32f0xx_it.c@4282@F@USART1_IRQHandler@mychar<UE> <DS>mychar<DE> Extent=<ES>146:28 - 146:34<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:28: UnexposedExpr=mychar|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13 <US>c:stm32f0xx_it.c@4282@F@USART1_IRQHandler@mychar<UE> <DS>mychar<DE> Extent=<ES>146:28 - 146:34<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:28: DeclRefExpr=mychar|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13 (Reference) <US>c:stm32f0xx_it.c@4282@F@USART1_IRQHandler@mychar<UE> <DS>mychar<DE> Extent=<ES>146:28 - 146:34<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>147:5 - 154:6<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:31<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:16: UnexposedExpr=ODR|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:406:17 <US>c:@SA@GPIO_TypeDef@FI@ODR<UE> <DS>ODR<DE> Extent=<ES>147:9 - 147:19<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:16: UnexposedExpr=ODR|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:406:17 <US>c:@SA@GPIO_TypeDef@FI@ODR<UE> <DS>ODR<DE> Extent=<ES>147:9 - 147:19<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:16: MemberRefExpr=ODR|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:406:17 (Reference) <US>c:@SA@GPIO_TypeDef@FI@ODR<UE> <DS>ODR<DE> Extent=<ES>147:9 - 147:19<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: TypeRef=GPIO_TypeDef|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:413:2 (Reference) <US>c:stm32f0xx.h@19980@T@GPIO_TypeDef<UE> <DS>struct GPIO_TypeDef<DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>147:9 - 147:14<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>147:22 - 147:31<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:148:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>148:5 - 150:6<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:29<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:14: MemberRefExpr=BRR|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:411:17 (Reference) <US>c:@SA@GPIO_TypeDef@FI@BRR<UE> <DS>BRR<DE> Extent=<ES>149:7 - 149:17<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: TypeRef=GPIO_TypeDef|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:413:2 (Reference) <US>c:stm32f0xx.h@19980@T@GPIO_TypeDef<UE> <DS>struct GPIO_TypeDef<DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:7 - 149:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>149:20 - 149:29<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:149:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:20 - 149:29<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>152:5 - 154:6<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:30<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:14: MemberRefExpr=BSRR|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:408:17 (Reference) <US>c:@SA@GPIO_TypeDef@FI@BSRR<UE> <DS>BSRR<DE> Extent=<ES>153:7 - 153:18<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: TypeRef=GPIO_TypeDef|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:413:2 (Reference) <US>c:stm32f0xx.h@19980@T@GPIO_TypeDef<UE> <DS>struct GPIO_TypeDef<DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:7 - 153:12<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>153:21 - 153:30<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:153:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>153:21 - 153:30<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:3: CallExpr=USART_ClearITPendingBit|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:576:6 <US>c:@F@USART_ClearITPendingBit<UE> <DS>void USART_ClearITPendingBit(USART_TypeDef *, uint32_t)<DE> Extent=<ES>156:3 - 156:49<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:3: UnexposedExpr=USART_ClearITPendingBit|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:576:6 <US>c:@F@USART_ClearITPendingBit<UE> <DS>void USART_ClearITPendingBit(USART_TypeDef *, uint32_t)<DE> Extent=<ES>156:3 - 156:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:3: DeclRefExpr=USART_ClearITPendingBit|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:576:6 (Reference) <US>c:@F@USART_ClearITPendingBit<UE> <DS>void USART_ClearITPendingBit(USART_TypeDef *, uint32_t)<DE> Extent=<ES>156:3 - 156:26<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: ParenExpr= <US><UE> <DS><DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: TypeRef=USART_TypeDef|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:638:3 (Reference) <US>c:stm32f0xx.h@36614@T@USART_TypeDef<UE> <DS>struct USART_TypeDef<DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: ParenExpr= <US><UE> <DS><DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: ParenExpr= <US><UE> <DS><DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:27 - 156:33<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:35: ParenExpr= <US><UE> <DS><DE> Extent=<ES>156:35 - 156:48<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:35: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>156:35 - 156:48<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:35: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>156:35 - 156:48<EE>
-<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:35 - 156:48<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>146:5 - 153:6<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>146:9 - 146:22<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:9: UnexposedExpr=mychar|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13 <US>c:stm32f0xx_it.c@4282@F@USART1_IRQHandler@mychar<UE> <DS>mychar<DE> Extent=<ES>146:9 - 146:15<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:9: UnexposedExpr=mychar|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13 <US>c:stm32f0xx_it.c@4282@F@USART1_IRQHandler@mychar<UE> <DS>mychar<DE> Extent=<ES>146:9 - 146:15<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:9: DeclRefExpr=mychar|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13 (Reference) <US>c:stm32f0xx_it.c@4282@F@USART1_IRQHandler@mychar<UE> <DS>mychar<DE> Extent=<ES>146:9 - 146:15<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:146:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>146:19 - 146:22<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:147:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>147:5 - 149:6<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:148:7: CallExpr=printf|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdio.h:171:42 <US>c:@F@printf<UE> <DS>int printf(const char *, ...)<DE> Extent=<ES>148:7 - 148:21<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:148:7: UnexposedExpr=printf|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdio.h:171:42 <US>c:@F@printf<UE> <DS>int printf(const char *, ...)<DE> Extent=<ES>148:7 - 148:13<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:148:7: DeclRefExpr=printf|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdio.h:171:42 (Reference) <US>c:@F@printf<UE> <DS>int printf(const char *, ...)<DE> Extent=<ES>148:7 - 148:13<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:148:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>148:14 - 148:20<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:148:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>148:14 - 148:20<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:148:14: StringLiteral= <US><UE> <DS><DE> Extent=<ES>148:14 - 148:20<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:151:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>151:5 - 153:6<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:7: CallExpr=USART_SendData|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:533:6 <US>c:@F@USART_SendData<UE> <DS>void USART_SendData(USART_TypeDef *, uint16_t)<DE> Extent=<ES>152:7 - 152:37<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:7: UnexposedExpr=USART_SendData|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:533:6 <US>c:@F@USART_SendData<UE> <DS>void USART_SendData(USART_TypeDef *, uint16_t)<DE> Extent=<ES>152:7 - 152:21<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:7: DeclRefExpr=USART_SendData|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:533:6 (Reference) <US>c:@F@USART_SendData<UE> <DS>void USART_SendData(USART_TypeDef *, uint16_t)<DE> Extent=<ES>152:7 - 152:21<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: TypeRef=USART_TypeDef|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:638:3 (Reference) <US>c:stm32f0xx.h@36614@T@USART_TypeDef<UE> <DS>struct USART_TypeDef<DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: ParenExpr= <US><UE> <DS><DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>152:22 - 152:28<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:30: UnexposedExpr=mychar|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13 <US>c:stm32f0xx_it.c@4282@F@USART1_IRQHandler@mychar<UE> <DS>mychar<DE> Extent=<ES>152:30 - 152:36<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:30: UnexposedExpr=mychar|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13 <US>c:stm32f0xx_it.c@4282@F@USART1_IRQHandler@mychar<UE> <DS>mychar<DE> Extent=<ES>152:30 - 152:36<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:152:30: DeclRefExpr=mychar|D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:144:13 (Reference) <US>c:stm32f0xx_it.c@4282@F@USART1_IRQHandler@mychar<UE> <DS>mychar<DE> Extent=<ES>152:30 - 152:36<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>156:5 - 163:6<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:31<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:16: UnexposedExpr=ODR|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:406:17 <US>c:@SA@GPIO_TypeDef@FI@ODR<UE> <DS>ODR<DE> Extent=<ES>156:9 - 156:19<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:16: UnexposedExpr=ODR|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:406:17 <US>c:@SA@GPIO_TypeDef@FI@ODR<UE> <DS>ODR<DE> Extent=<ES>156:9 - 156:19<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:16: MemberRefExpr=ODR|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:406:17 (Reference) <US>c:@SA@GPIO_TypeDef@FI@ODR<UE> <DS>ODR<DE> Extent=<ES>156:9 - 156:19<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: TypeRef=GPIO_TypeDef|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:413:2 (Reference) <US>c:stm32f0xx.h@19980@T@GPIO_TypeDef<UE> <DS>struct GPIO_TypeDef<DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: ParenExpr= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:9 - 156:14<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:156:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:22 - 156:31<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:157:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>157:5 - 159:6<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:29<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:14: MemberRefExpr=BRR|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:411:17 (Reference) <US>c:@SA@GPIO_TypeDef@FI@BRR<UE> <DS>BRR<DE> Extent=<ES>158:7 - 158:17<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: TypeRef=GPIO_TypeDef|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:413:2 (Reference) <US>c:stm32f0xx.h@19980@T@GPIO_TypeDef<UE> <DS>struct GPIO_TypeDef<DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>158:20 - 158:29<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:158:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>158:20 - 158:29<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:161:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>161:5 - 163:6<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:30<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:14: MemberRefExpr=BSRR|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:408:17 (Reference) <US>c:@SA@GPIO_TypeDef@FI@BSRR<UE> <DS>BSRR<DE> Extent=<ES>162:7 - 162:18<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: TypeRef=GPIO_TypeDef|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:413:2 (Reference) <US>c:stm32f0xx.h@19980@T@GPIO_TypeDef<UE> <DS>struct GPIO_TypeDef<DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:7 - 162:12<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>162:21 - 162:30<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:162:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>162:21 - 162:30<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:3: CallExpr=USART_ClearITPendingBit|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:576:6 <US>c:@F@USART_ClearITPendingBit<UE> <DS>void USART_ClearITPendingBit(USART_TypeDef *, uint32_t)<DE> Extent=<ES>165:3 - 165:49<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:3: UnexposedExpr=USART_ClearITPendingBit|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:576:6 <US>c:@F@USART_ClearITPendingBit<UE> <DS>void USART_ClearITPendingBit(USART_TypeDef *, uint32_t)<DE> Extent=<ES>165:3 - 165:26<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:3: DeclRefExpr=USART_ClearITPendingBit|D:\GitDevelopment\STM32F0_Projects\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h:576:6 (Reference) <US>c:@F@USART_ClearITPendingBit<UE> <DS>void USART_ClearITPendingBit(USART_TypeDef *, uint32_t)<DE> Extent=<ES>165:3 - 165:26<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: ParenExpr= <US><UE> <DS><DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: TypeRef=USART_TypeDef|D:\GitDevelopment\STM32F0_Projects\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h:638:3 (Reference) <US>c:stm32f0xx.h@36614@T@USART_TypeDef<UE> <DS>struct USART_TypeDef<DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: ParenExpr= <US><UE> <DS><DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: ParenExpr= <US><UE> <DS><DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>165:27 - 165:33<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:35: ParenExpr= <US><UE> <DS><DE> Extent=<ES>165:35 - 165:48<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:35: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>165:35 - 165:48<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:35: TypeRef=uint32_t|D:\Applications\IAR Systems\Embedded Workbench 6.4 Kickstart\arm\inc\c\stdint.h:27:29 (Reference) <US>c:stdint.h@609@T@uint32_t<UE> <DS>unsigned int<DE> Extent=<ES>165:35 - 165:48<EE>
+<L>D:\GitDevelopment\STM32F0_Projects\Project\USART_Example\stm32f0xx_it.c:165:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>165:35 - 165:48<EE>
